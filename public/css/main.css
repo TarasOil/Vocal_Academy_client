@@ -1,0 +1,53 @@
+body{
+    background-image: url(https://ak6.picdn.net/shutterstock/videos/13228646/thumb/8.jpg);
+    background-size: 125%;
+}
+
+.container{
+    width: calc(100% - 200px); /*100% - the (sidebar + secondary)*/
+    margin-left: 200px; /*same as sidebar width*/
+}
+
+.row{
+    margin-right: -160px; 
+}
+
+.article{
+    margin: 30px 0 30px 0;
+    margin-left: 60px;
+    padding: 15px;
+    background: #333333;
+    color: white;
+    border-radius: 25px;
+    opacity: 0.8;
+}
+
+.article img{
+    align-self: center;
+    opacity: 1.0;
+}
+
+.article p{
+    position: relative;
+    top: 30%;
+    padding: 4% 0 0 0;
+    text-align: center;
+}
+
+.article span{
+    display: block;
+    text-align: right;
+    position: relative;
+    top: 30%;
+    right: 5%;
+}
+
+#img-1{
+    float: left;
+    margin-right: 10px;
+}
+
+#img-2{
+    float: right;
+    margin-left: 10px;
+}
